@@ -1,1 +1,0 @@
-# patern0ster.github.io
