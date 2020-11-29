@@ -124,3 +124,19 @@ footer p{
     margin-top: 20px;
     font-weight: 500;
 }
+.mobile{
+    text-align: center;
+    display: none;
+    color: #ceceb1;
+    padding:10px 20px;
+    background-color:#292929;
+}
+@media screen and (max-width: 1010px)
+{
+    .mobile{
+        display:block;
+    }
+    .container{
+        width:100%;
+    }
+}
