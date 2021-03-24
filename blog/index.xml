@@ -5,12 +5,12 @@
     
     
     
-    <link>https://metekarasakal.me/</link>
+    <link>https://metekarasakal.me/blog/</link>
     <description>Recent content on DevBlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://metekarasakal.me/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://metekarasakal.me/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

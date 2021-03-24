@@ -5,12 +5,12 @@
     
     
     
-    <link>https://metekarasakal.me/categories/</link>
+    <link>https://metekarasakal.me/blog/categories/</link>
     <description>Recent content in Categories on DevBlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://metekarasakal.me/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://metekarasakal.me/blog/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
