@@ -1,24 +1,30 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="custom/custom.css">
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&family=Source+Code+Pro:wght@600&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/2961cbb721.js" crossorigin="anonymous"></script>
         <title>Mete Karasakal</title>
-	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-	<link rel="manifest" href="/site.webmanifest">
-	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ceceb1">
-	<meta name="msapplication-TileColor" content="#ceceb1">
-	<meta name="theme-color" content="#ffffff">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ceceb1">
+    <meta name="msapplication-TileColor" content="#ceceb1">
+    <meta name="theme-color" content="#ffffff">
     </head>
-    <body>
+    <style> i, a {color:#7d7d6a;} </style>
+    <body style="background-color:#292929;">
         <div class="container">
             <header>
                 <img class="profile" src="custom/avatar.jpeg">
-                <h1 id="name"></h1>
+                <h1 id="name">Mete Karasakal</h1>
                 <p class="intro">is a student, enthusiastic of learning new technologies and using them</p>
                 <span class="contact">
                     <a href="https://www.linkedin.com/in/mete-karasakal-808449176/"><i class="fab fa-linkedin"></i></a>
@@ -28,25 +34,27 @@
                 </span>
             </header>
             <hr>
-            <div class="part">
-                <div class="left">
+
+
+            <div class="part row">
+                <div class="left col-6">
                     <i class="fas fa-university"></i>
                     <p>Education</p>
                 </div>
-                <div class="middle">
+                <div class="right col-6">
                     <p>2017 - Present</p>
-                </div>
-                <div class="right">
                     <p><span style="font-weight: 500;">Middle East Technical University</span><br>Computer Engineering - Northern Cyprus Campus<br><i>4th year</i></p>
                 </div>
             </div>
             <hr>
-            <div class="part">
-                <div class="left">
+
+
+            <div class="part row">
+                <div class="left col-12 col-lg-4">
                     <i class="fas fa-laptop-code"></i>
                     <p>Languages & <br>Tools</p>
                 </div>
-                <div class="middle-c">
+                <div class="middle-c col-12 col-lg-4">
                     <table>
                         <tr>
                             <th>C</th>
@@ -78,7 +86,7 @@
                             <i class="far fa-circle"></i>
                             </td>
                         </tr>
-			<tr>
+                        <tr>
                             <th>Node.js</th>
                             <td>
                             <i class="fas fa-circle"></i>
@@ -110,7 +118,7 @@
                         </tr>
                     </table>
                 </div>
-                <div class="right-c">
+                <div class="right-c col-12 col-lg-4">
                     <table>
                         <tr>
                             <th>Flask</th>
@@ -176,8 +184,8 @@
                 </div>
             </div>
             <hr>
-            <div class="part">
-                <div class="left">
+            <div class="part row">
+                <div class="left col-12 col-lg-2">
                     <i class="fas fa-project-diagram"></i>
                     <p>Projects & <br>Internships</p>
                 </div>
@@ -185,7 +193,7 @@
                     <p>Done in 2021</p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
                     <p>Done in 2020</p>
                 </div> -->
-                <div class="right" style="width: 70%;">
+                <div class="right col-12 col-lg-10">
                     <h3>Done in 2021</h3>
                     <p><span style="font-weight: 500;">GÜNSEL</span><br>Software Developer (Part-time) & Intern Software Developer<br><br>
                         I worked as a back-end web developer. I used NodeJS to build the projects along with technologies SQL DBs, NoSQL DBs, NestJS, ExpressJS, Jest and other minor libraries. I have worked on the big and mid sized projects when I worked at GUNSEL.</p>
@@ -204,12 +212,12 @@
                 </div>
             </div>
             <hr>
-            <div class="part">
-                <div class="left">
+            <div class="part row">
+                <div class="left col-12 col-lg-2">
                     <i class="fas fa-certificate"></i>
                     <p>Certificates</p>
                 </div>
-                <div class="middle">
+                <div class="middle d-none d-lg-block col-lg-5">
                     <p>Issued Oct 2021</p><br><br><br>
                     <p>Issued Jan 2021</p><br><br><br>
                     <p>Issued Dec 2020</p><br><br><br>
@@ -218,61 +226,72 @@
                     <p>Issued May 2019</p><br><br>
                     <p>Issued May 2019</p><br><br>
                 </div>
-                <div class="right">
+                <div class="right col-12 col-lg-5">
+                        <p class="d-block d-lg-none">Issued Oct 2021</p>
                     <p><span style="font-weight: 500;"><i class="fab fa-free-code-camp"></i> JavaScript Algorithm and Data Structures</span><br>freeCodeCamp<br><a target="blank" href="https://www.freecodecamp.org/certification/patern0ster/javascript-algorithms-and-data-structures">See Credentials.</a></p>
                     <br>
+                    <p class="d-block d-lg-none">Issued Jan 2021</p>
                     <p><span style="font-weight: 500;">Building Web Applications in Django</span><br>Coursera <br><a target="blank" href="https://coursera.org/share/a93d7e10e0b888200f2e904bf4a7a159">See Credentials.</a></p>
                     <br>
+                    <p class="d-block d-lg-none">Issued Dec 2020</p>
                     <p><span style="font-weight: 500;">Web Application Technologies and Django</span><br>Coursera <br><a target="blank" href="https://coursera.org/share/77f6547e1b295c98841ea6e4622114e0">See Credentials.</a></p>
                     <br>
+                    <p class="d-block d-lg-none">Issued May 2020</p>
                     <p><span style="font-weight: 500;"><i class="fab fa-hackerrank"></i> Python</span><br>HackerRank <br><a target="blank" href="https://www.hackerrank.com/certificates/e97b10bc439f">See Credentials.</a></p>
                     <br>
+                    <p class="d-block d-lg-none">Issued May 2020</p>
                     <p><span style="font-weight: 500;"><i class="fab fa-free-code-camp"></i> Responsive Web Design</span><br>freeCodeCamp<br><a target="blank" href="https://www.freecodecamp.org/certification/patern0ster/responsive-web-design">See Credentials.</a></p>
                     <br>
+                    <p class="d-block d-lg-none">Issued May 2019</p>
                     <p><span style="font-weight: 500;"></i>Programming Contest Participation Certificate</span><br>Code Go (An annual contest in METU NCC)</p>
                     <br>
+                    <p class="d-block d-lg-none">Issued May 2019</p>
                     <p><span style="font-weight: 500;"></i>Open Water Diver</span><br>PADI</p>
                 </div>
             </div>
             <hr>
-            <div class="part">
-                <div class="left">
+            <div class="part row">
+                <div class="left col-12 col-lg-2">
                     <i class="fas fa-user-friends"></i>
                     <p>Society <br>Works</p>
                 </div>
-                <div class="middle">
+                <div class="middle d-none d-lg-block col-lg-5">
                     <p>Oct 2019 - Jan 2020</p><br><br><br>
                     <p>Feb 2020 - May 2020</p>
                 </div>
-                <div class="right">
+                <div class="right col-12 col-lg-5">
+                    <p class="d-block d-lg-none">Oct 2019 - Jan 2020</p>
                     <p><span style="font-weight: 500;">Paraeducator</span><br>IEEE<br>
                     I taught C programming language to 11 people (Beginner level).</p>
                     <br>
+                    <p class="d-block d-lg-none">Feb 2020 - May 2020</p>
                     <p><span style="font-weight: 500;">Committee Manager and Chief Designer</span><br>Atatürk's Tought Society Journal Committee</p>
                 </div>
             </div>
             <hr>
-            <div class="part">
-                <div class="left">
+            <div class="part row">
+                <div class="col-lg-1"></div>
+                <div class="left col-12 col-lg-2">
                     <i class="fas fa-snowboarding"></i>
                     <p>Hobbies & <br>Social Life</p>
                 </div>
-                <div class="hobby">
+                <div class="hobby col-6 col-lg-2">
                     <i class="far fa-compass"></i>
                     <p>Camping</p>
                 </div>
-                <div class="hobby">
+                <div class="hobby col-6 col-lg-2">
                     <i class="fas fa-globe"></i>
                     <p>Learning Languages</p>
                 </div>
-                <div class="hobby">
+                <div class="hobby col-6 col-lg-2">
                     <i class="fas fa-water"></i>
                     <p>Water Sports</p>
                 </div>
-                <div class="hobby hobby-last">
+                <div class="hobby hobby-last col-6 col-lg-2">
                     <i class="fas fa-snowflake"></i>
                     <p>Winter Sports</p>
                 </div>
+                <div class="col-lg-1"></div>
             </div>
             <hr>
             <footer>
@@ -281,4 +300,6 @@
         </div>
     </body>
     <script src="custom/custom.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </html>
