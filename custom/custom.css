@@ -49,11 +49,11 @@ nav {
 .contact i{
     margin:3px;
 }
-a {
+div > p > a {
     color: #7d7d6a;
     text-decoration: none;
 }
-a:hover {
+div > p > a:hover {
     color: #ceceb1;
 }
 hr{
@@ -118,6 +118,7 @@ header{
 }
 th{
     text-align: right;
+    padding: 5px 15px;
 }
 .hobby{
     width:19.6%;
